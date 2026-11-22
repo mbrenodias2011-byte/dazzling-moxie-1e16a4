@@ -1,0 +1,21 @@
+{
+  "name": "Finanças Pessoais - Painel do Mês",
+  "short_name": "Finanças",
+  "description": "Gerencie suas finanças mensais, despesas e metas de poupança.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F1F5F9",
+  "theme_color": "#4F46E5",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+  "categories": ["finance", "productivity"],
+  "lang": "pt-PT",
+  "dir": "ltr"
+}

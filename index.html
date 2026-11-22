@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="pt-PT">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#4F46E5" />
+    <meta name="description" content="Gerencie suas finanças mensais, despesas e metas de poupança." />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="Finanças" />
+    <link rel="manifest" href="/manifest.json" />
+    <title>Painel do Mês - Finanças Pessoais</title>
+    <script>
+      // Apply theme immediately to prevent flash of wrong theme
+      (function() {
+        const savedTheme = localStorage.getItem('financas-tema');
+        if (savedTheme === 'dark') {
+          document.documentElement.classList.add('dark');
+        }
+      })();
+    </script>
+    <script type="module" crossorigin src="/assets/index-Bx4pJrlM.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-Bj0kIZpn.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
